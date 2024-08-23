@@ -1,0 +1,108 @@
+/* Estilo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    background-color: #0a74da;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #ddd;
+}
+
+/* Información de contacto */
+.contact-info {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info span {
+    font-weight: bold;
+    color: #0a74da;
+}
+
+/* Títulos de sección */
+.section-title {
+    font-size: 22px;
+    color: #0a74da;
+    border-bottom: 2px solid #0a74da;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+/* Listas de habilidades y formación */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e8f0fe;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+ul li:before {
+    content: "♦"; 
+    color: #0a74da;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Botones de enlaces */
+.links .button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #0a74da;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.links .button:hover {
+    background-color: #005bb5;
+}
+
+.links a {
+    margin-right: 10px;
+}
+
+.links {
+    text-align: center;
+}
