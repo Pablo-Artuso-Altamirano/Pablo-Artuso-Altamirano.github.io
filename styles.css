@@ -51,3 +51,9 @@ body {
 img {
     border: 5px solid #2980b9;
 }
+
+/* Línea vertical */
+.border-right {
+    border-right: 1.5px solid #2980b9; /* Color y grosor de la línea */
+    padding-right: 20px; /* Espacio a la derecha para evitar que el contenido toque la línea */
+}
