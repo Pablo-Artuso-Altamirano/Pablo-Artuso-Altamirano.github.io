@@ -1,147 +1,53 @@
-/* Estilo general */
+/* General */
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f4f8;
+    background-color: #f4f7fc;
     color: #333;
-    line-height: 1.6;
 }
 
-/* Contenedor principal */
 .container {
-    max-width: 900px;
-    margin: 40px auto;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Encabezado */
-.header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.header h1 {
-    margin: 0;
-    font-size: 32px;
-    color: #2c3e50;
-}
-
-.subtitle {
-    font-size: 18px;
-    color: #7f8c8d;
-}
-
-/* Información de contacto */
-.contact-info {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.contact-info p {
-    margin: 5px 0;
-    font-size: 16px;
-    color: #2c3e50;
-}
-
-.contact-info span {
-    font-weight: bold;
-    color: #2980b9;
-}
-
-/* Títulos de sección */
+/* Sección Títulos */
 .section-title {
     font-size: 24px;
     color: #2980b9;
-    border-bottom: 2px solid #2980b9;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
 }
 
-/* Perfil personal */
-.profile {
-    margin-bottom: 30px;
-}
-
-.profile p {
-    font-size: 16px;
-    color: #555;
-    text-align: justify;
-}
-
-/* Listas de habilidades, formación y aptitudes */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background: #ecf0f1;
+/* Listas */
+.list-unstyled li {
+    background-color: #ecf0f1;
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
 }
 
-ul li:before {
-    content: "○";
-    color: #27ae60;
-    font-weight: bold;
-    margin-right: 10px;
-    font-size: 18px;
+.list-group-item {
+    background-color: #f7f9fc;
+    border: none;
+    border-left: 5px solid #2980b9;
+    padding-left: 15px;
 }
 
-/* Experiencia */
-.experience {
-    margin-bottom: 30px;
-}
-
-.experience p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 8px;
-    line-height: 1.6;
-}
-
-.experience p:last-of-type {
-    margin-bottom: 0;
-}
-
-.experience .project-title {
-    font-weight: bold;
-    color: #2c3e50;
-    margin-top: 15px;
-}
-
-.experience .technologies {
-    font-style: italic;
-    color: #7f8c8d;
-}
-
-/* Botones de enlaces */
-.links .button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
+/* Botones */
+.btn-primary {
     background-color: #2980b9;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+    border: none;
     transition: background-color 0.3s ease;
 }
 
-.links .button:hover {
+.btn-primary:hover {
     background-color: #1a5980;
 }
 
-.links a {
-    margin-right: 10px;
+.bg-light {
+    background-color: #f7f9fc !important;
 }
 
-.links {
-    text-align: center;
+img {
+    border: 5px solid #2980b9;
 }

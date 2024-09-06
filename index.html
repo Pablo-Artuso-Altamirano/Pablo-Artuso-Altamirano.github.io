@@ -5,84 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pablo Artuso Altamirano - Desarrollador de Software</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <h1>Pablo Artuso Altamirano</h1>
-            <p class="subtitle">Desarrollador de Software</p>
-        </header>
+    <div class="container my-5">
+        <div class="row">
+            <!-- Columna Izquierda -->
+            <div class="col-lg-4">
+                <div class="text-center mb-4">
+                    <img src="img/WhatsApp Image 2024-09-06 at 09.50.46.jpeg" alt="Foto de perfil" class="rounded-circle img-fluid mb-3" width="150px">
+                    <h2 class="display-6 fw-bold">Pablo Artuso Altamirano</h2>
+                    <p class="lead text-muted">Desarrollador de Software</p>
+                </div>
+                <br><br><br>
+                <div class="bg-light p-4 rounded mb-4">
+                    <h3 class="section-title text-primary border-bottom pb-2 mb-3">Información de Contacto</h3>
+                    <p><strong>Teléfono:</strong> 3573-450142</p>
+                    <p><strong>Email:</strong> pabloartusoaltamirano5@gmail.com</p>
+                    <p><strong>Ubicación:</strong> Córdoba, Villa del Rosario, Argentina</p>
+                </div>
+                <br><br>
+                <div class="bg-light p-4 rounded mb-4">
+                    <h3 class="section-title text-primary border-bottom pb-2 mb-3">Idiomas</h3>
+                    <ul class="list-unstyled">
+                        <li>Español (nativo)</li>
+                        <li>Inglés (básico)</li>
+                    </ul>
+                </div>
+                <br><br>
+                <div class="bg-light p-4 rounded">
+                    <h3 class="section-title text-primary border-bottom pb-2 mb-3">Enlaces Profesionales</h3>
+                    <a href="https://github.com/Pablo-Artuso-Altamirano" class="btn btn-primary d-block mb-2">GitHub</a>
+                    <a href="https://www.linkedin.com/in/pablo-artuso-920829195" class="btn btn-primary d-block">LinkedIn</a>
+                </div>
+            </div>
 
-        <div class="contact-info">
-            <p>📞 <span>Teléfono:</span> 3573-450142</p>
-            <p>📧 <span>Email:</span> pabloartusoaltamirano5@gmail.com</p>
-            <p>📍 <span>Ubicación:</span> Córdoba, Villa del Rosario, Argentina</p>
-        </div>
+            <!-- Columna Derecha -->
+            <div class="col-lg-8">
+                <section class="mb-5">
+                    <h2 class="section-title text-primary border-bottom pb-2 mb-4">Perfil Personal</h2>
+                    <p>Hola! Soy Pablo, desarrollador de software. Tengo 21 años y me caracterizo por estar en constante aprendizaje y abierto a nuevas experiencias que me permitan crecer tanto a nivel profesional como personal.</p>
+                </section>
 
-        <div class="profile">
-            <h2 class="section-title">Perfil Personal</h2>
-            <p>Hola! soy Pablo, desarrollador de software. Tengo 21 años y me caracterizo por estar en constante aprendizaje y abierto a nuevas experiencias que me permitan crecer tanto a nivel profesional como personal.</p>
-        </div>
+                <section class="mb-5">
+                    <h2 class="section-title text-primary border-bottom pb-2 mb-4">Formación</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Secundario Completo - IBAT San Jose, Villa Del Rosario (2014 – 2020)</li>
+                        <li class="list-group-item">Tecnicatura Superior en Desarrollo de Software - Instituto Superior, Villa del Rosario (2022 - 2024)</li>
+                        <li class="list-group-item">Curso Complementario: Desarrollo Web Completo PHP SCSS HTML SQL | Udemy</li>
+                    </ul>
+                </section>
 
-        <div class="education">
-            <h2 class="section-title">Formación</h2>
-            <ul>
-                <li>Secundario Completo - IBAT San Jose, Villa Del Rosario (2014 – 2020)</li>
-                <li>Tecnicatura Superior en Desarrollo de Software - Instituto Superior, Villa del Rosario (2022 - 2024)</li>
-                <li>Curso Complementario: Desarrollo Web Completo PHP SCSS HTML SQL | Udemy</li>
-            </ul>
-        </div>
+                <section class="mb-5">
+                    <h2 class="section-title text-primary border-bottom pb-2 mb-4">Experiencia</h2>
+                    <div class="mb-4">
+                        <h4 class="fw-bold">Proyecto de Salón de Estética - Curso Udemy</h4>
+                        <p>Su objetivo es la toma de citas, eligiendo los servicios deseados y el guardado de la cita en un servidor local.</p>
+                        <p><strong>Tecnologías:</strong> HTML - SCSS - JavaScript - PHP - MySQL</p>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold">Proyecto de Turnero</h4>
+                        <p>Su objetivo es la gestión de servicios, la creación, actualización y vista de los mismos. También la gestión de turnos.</p>
+                        <p><strong>Tecnologías:</strong> HTML - SCSS - JavaScript - PHP - MySQL</p>
+                    </div>
+                </section>
 
-        <div class="experience">
-            <h2 class="section-title">Experiencia</h2>
-            <p class="project-title">Proyecto de Salón de Estética - Curso Udemy</p>
-            <p>Su objetivo es la toma de citas, eligiendo los servicios deseados y el guardado de la cita en un servidor local.</p>
-            <p class="technologies">Tecnologías usadas: HTML - SCSS - JavaScript - PHP - MySQL</p>
-            <br>
-            <p class="project-title">Proyecto de Turnero</p>
-            <p>Su objetivo es la gestión de servicios, la creación, actualización y vista de los mismos. También la gestión de turnos.</p>
-            <p class="technologies">Tecnologías usadas: HTML - SCSS - JavaScript - PHP - MySQL</p>
-        </div>
+                
+                <div class="bg-light p-4 rounded mb-5">
+                    <h3 class="section-title text-primary border-bottom pb-2 mb-3">Conocimientos</h3>
+                    <ul class="list-unstyled">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
 
-        <div class="skills">
-            <h2 class="section-title">Conocimientos</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>MySQL</li>
-            </ul>
-        </div>
-
-        <div class="aptitudes">
-            <h2 class="section-title">Aptitudes</h2>
-            <ul>
-                <li>Trabajo en Equipo</li>
-                <li>Gestión del Tiempo</li>
-                <li>Responsabilidad</li>
-                <li>Empatía</li>
-                <li>Capacidad de Aprendizaje</li>
-            </ul>
-        </div>
-
-        <div class="languages">
-            <h2 class="section-title">Idiomas</h2>
-            <ul>
-                <li>Español (nativo)</li>
-                <li>Inglés (básico)</li>
-            </ul>
-        </div>
-
-        <div class="links">
-            <h2 class="section-title">Enlaces Profesionales</h2>
-            <a href="https://github.com/Pablo-Artuso-Altamirano" class="button">GitHub</a>
-            <a href="https://www.linkedin.com/in/pablo-artuso-920829195" class="button">LinkedIn</a>
+                <section class="mb-5">
+                    <h2 class="section-title text-primary border-bottom pb-2 mb-4">Aptitudes</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Trabajo en Equipo</li>
+                        <li class="list-group-item">Gestión del Tiempo</li>
+                        <li class="list-group-item">Responsabilidad</li>
+                        <li class="list-group-item">Empatía</li>
+                        <li class="list-group-item">Capacidad de Aprendizaje</li>
+                    </ul>
+                </section>
+            </div>
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
